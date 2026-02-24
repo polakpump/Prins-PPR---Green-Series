@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PRINS - צנרת PPR מבודדת לבנייה ירוקה | קבוצת פולק</title>
+    <!-- Tailwind CSS for styling -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for a professional technical look -->
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
     
     <script>
@@ -44,7 +47,7 @@
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800 antialiased">
-
+    <!-- Navigation / Header -->
     <header class="bg-white shadow-sm sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <div class="flex items-center gap-4">
@@ -59,7 +62,7 @@
             </div>
         </div>
     </header>
-
+    <!-- Hero Section -->
     <section class="bg-engineering-blue text-white py-16 lg:py-24 relative overflow-hidden">
         <div class="absolute inset-0 opacity-10 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAzNHYtNGgtMnY0aC00djJoNHY0aDJ2LTRoNHYtMmgtNHptMC0zMFYwaC0ydjRoLTR2Mmg0djRoMnYtNGg0VjJoLTR6bS0xOCAxMnYtNGgtMnY0aC00djJoNHY0aDJ2LTRoNHYtMmgtNHptMC0zMFYwaC0ydjRoLTR2Mmg0djRoMnYtNGg0VjJoLTR6IiBmaWxsPSIjZmZmZmZmIiBmaWxsLW9wYWNpdHk9IjAuNCIvPjwvZz48L3N2Zz4=')]"></div>
         
@@ -88,24 +91,25 @@
                     </div>
                 </div>
                 
-                <div class="bg-white/10 p-4 rounded-xl backdrop-blur-sm border border-white/20 max-w-lg mx-auto lg:mx-0">
+                <!-- תוקן: הוספת max-w-md ומרכוז כדי למנוע מהתמונה לגדול מדי -->
+                <div class="bg-white/10 p-4 rounded-xl backdrop-blur-sm border border-white/20 max-w-md mx-auto lg:mr-auto lg:ml-0">
                     <img src="pipe.jpg.jpg" alt="צנרת PRINS של INTERPLAST" onerror="this.src='https://via.placeholder.com/600x400?text=PRINS+Pipe'" class="rounded-lg w-full object-cover shadow-2xl">
-                    <div class="mt-4 text-center text-sm font-medium text-blue-100 italic">
+                    <div class="mt-4 text-center text-sm font-medium text-blue-100 italic leading-relaxed">
                         צנרת PPR מבודדת מראש מסדרת PRINS – מבנה אחיד המבטיח עד 70% חיסכון באנרגיה ומניעת עיבוי מוחלטת.
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <!-- Key Engineering Pain Points & Solutions -->
     <section class="py-16 bg-white border-b border-gray-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">האתגרים של יועצי הקיימות והפתרון ההנדסי</h2>
                 <div class="h-1 w-20 bg-eco-green mx-auto"></div>
             </div>
-
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Point 1 -->
                 <div class="bg-tech-gray p-8 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow tech-border">
                     <div class="bg-engineering-blue text-white w-14 h-14 rounded-full flex items-center justify-center mb-6 shadow-md">
                         <i data-lucide="zap" class="w-7 h-7"></i>
@@ -118,7 +122,7 @@
                         <li>חיסכון של עד 70% באובדן חום (בהשוואה לצנרת מתכת מסורתית).</li>
                     </ul>
                 </div>
-
+                <!-- Point 2 -->
                 <div class="bg-tech-gray p-8 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow tech-border" style="border-right-color: #f97316;">
                     <div class="bg-alert-orange text-white w-14 h-14 rounded-full flex items-center justify-center mb-6 shadow-md">
                         <i data-lucide="flame" class="w-7 h-7"></i>
@@ -131,7 +135,7 @@
                         <li>צמצום משמעותי של האנרגיה הגלומה (Embodied Carbon) הכרוכה בחומרי מיגון עזר.</li>
                     </ul>
                 </div>
-
+                <!-- Point 3 -->
                 <div class="bg-tech-gray p-8 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow tech-border" style="border-right-color: #0ea5e9;">
                     <div class="bg-sky-500 text-white w-14 h-14 rounded-full flex items-center justify-center mb-6 shadow-md">
                         <i data-lucide="droplets" class="w-7 h-7"></i>
@@ -146,7 +150,7 @@
             </div>
         </div>
     </section>
-
+    <!-- Technical Cross Section -->
     <section id="specs" class="py-16 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-16">
@@ -182,6 +186,7 @@
                 </div>
                 
                 <div class="lg:w-1/2 w-full flex justify-center">
+                    <!-- Cross section image -->
                     <div class="relative max-w-md w-full p-4 bg-white rounded-xl shadow-xl border border-gray-100">
                         <img src="חתך צינור מבודד.png" alt="חתך צינור מבודד PRINS" onerror="this.src='https://via.placeholder.com/400x300?text=Cross+Section'" class="w-full h-auto rounded">
                     </div>
@@ -189,7 +194,7 @@
             </div>
         </div>
     </section>
-
+    <!-- Standards & Certifications Infographic (The Meat) -->
     <section class="py-20 bg-engineering-blue text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
@@ -199,8 +204,8 @@
                     צ'ק-ליסט טכני ליועצי בנייה ירוקה. כך מערכת PRINS עוזרת לכם לצבור נקודות קריטיות בדירוג הפרויקט.
                 </p>
             </div>
-
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Chapter 1 -->
                 <div class="bg-white/10 p-6 rounded-lg backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-colors">
                     <div class="text-eco-green mb-4">
                         <i data-lucide="plug" class="w-10 h-10"></i>
@@ -211,7 +216,7 @@
                         <p><span class="font-bold text-white">סעיף 1.2 (מערכות אלקטרו-מכניות):</span> הפחתת עומס עבודה מצטבר על הצ'ילרים והמשאבות בשל טמפרטורה יציבה לאורך הקווים.</p>
                     </div>
                 </div>
-
+                <!-- Chapter 2 -->
                 <div class="bg-white/10 p-6 rounded-lg backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-colors">
                     <div class="text-eco-green mb-4">
                         <i data-lucide="box" class="w-10 h-10"></i>
@@ -223,7 +228,7 @@
                         <p><span class="font-bold text-white">סעיף 2.5 (צמצום פסולת):</span> התקנה נקייה ללא צורך בדבקים ובידוד נוסף. אפס שיירי בידוד באתר.</p>
                     </div>
                 </div>
-
+                <!-- Chapter 3 -->
                 <div class="bg-white/10 p-6 rounded-lg backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-colors">
                     <div class="text-eco-green mb-4">
                         <i data-lucide="wind" class="w-10 h-10"></i>
@@ -234,7 +239,7 @@
                         <p>היעדר הלחות מונע לחלוטין התפתחות של עובש ומושבות בקטריות בחללי התקרה והפירים, מה שמבטיח אוויר נקי יותר לדיירי המבנה.</p>
                     </div>
                 </div>
-
+                <!-- Chapter 9 -->
                 <div class="bg-white/10 p-6 rounded-lg backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-colors">
                     <div class="text-eco-green mb-4">
                         <i data-lucide="lightbulb" class="w-10 h-10"></i>
@@ -248,11 +253,12 @@
             </div>
         </div>
     </section>
-
+    <!-- Trust & Certifications Bar -->
     <section class="py-8 bg-gray-100 border-b border-gray-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <p class="text-center text-gray-500 font-semibold mb-6 text-sm uppercase tracking-wider">עומדים בתקנים המחמירים ביותר</p>
             <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-70">
+                <!-- Using icons/text as placeholders for certification logos -->
                 <div class="flex flex-col items-center gap-2">
                     <i data-lucide="award" class="cert-icon text-gray-700"></i>
                     <span class="font-bold text-sm text-gray-600">תקן ישראלי 5281</span>
@@ -272,10 +278,11 @@
             </div>
         </div>
     </section>
-
+    <!-- Contact & CTA Form -->
     <section id="contact" class="py-20 bg-white">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="bg-tech-gray rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row">
+                <!-- Form Side -->
                 <div class="p-8 md:w-3/5">
                     <h2 class="text-2xl font-bold text-gray-900 mb-2">שנציג לכם את זה מקרוב?</h2>
                     <p class="text-gray-600 mb-6 text-sm">מלאו פרטים ונשמח לתאם פגישה מקצועית, להעביר הדרכת "Lunch & Learn" לצוות שלכם, או לשלוח "קיט דוגמה" פיזי למשרד.</p>
@@ -314,6 +321,7 @@
                     </form>
                 </div>
                 
+                <!-- Info Side -->
                 <div class="bg-engineering-blue text-white p-8 md:w-2/5 flex flex-col justify-center">
                     <h3 class="text-xl font-bold mb-4">למה כדאי להיפגש?</h3>
                     <ul class="space-y-4">
@@ -339,13 +347,13 @@
             </div>
         </div>
     </section>
-
+    <!-- Footer -->
     <footer class="bg-gray-900 text-gray-400 py-8 text-center text-sm">
         <div class="max-w-7xl mx-auto px-4">
             <p>&copy; 2026 קבוצת פולק. כל הזכויות שמורות. מפיצים מורשים של Interplast בישראל.</p>
         </div>
     </footer>
-
+    <!-- Initialize Icons -->
     <script>
         lucide.createIcons();
     </script>
